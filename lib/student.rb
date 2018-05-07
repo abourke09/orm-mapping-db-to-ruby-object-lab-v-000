@@ -55,7 +55,7 @@ class Student
     FROM students
     WHERE grade < 12
     SQL
-binding.pry
+
     DB[:conn].execute(sql).flatten
   end
 
