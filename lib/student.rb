@@ -55,7 +55,7 @@ class Student
 
   end
 
-  def self.all_students_in_grade_X(x)
+  def self.all_students_in_grade_X(grade)
 
   end
 
