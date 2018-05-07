@@ -69,7 +69,7 @@ class Student
     SQL
 
     grade_10 = DB[:conn].execute(sql)
-    grade_10[0 .. x_students]
+    grade_10[0 .. (x_students - 1)]
 
   end
 
